@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navegacion">
+            <img src="img/logo.png" alt="">
+            <ul>
+                <li class="li-nav"><a href="index.html">Inicio</a></li>
+                <li class="li-nav"><a href="#imagenes">Imagenes</a></li>
+                <li class="li-nav"><a href="#contacto">Contacto</a></li>
+                <li class="li-nav"><a href="login.html">Login</a></li>
+                <li class="li-nav"><a href="registrarse.html">Registrarse</a></li>
+            </ul>
+            <i class="fa-solid fa-bars icon-menu"></i>
+        </nav>
+        <div class="titulo">
+            <h1>Deleitate con nuestros platos</h1>
+        </div>
+    </header>
+    <main>
+        <section class="imagenes" id="imagenes">
+            <h2>Nuestras recomendaciones</h2>
+            <div class="contenedor-imagen">
+                <div class="contenedor-imagen-info">
+                    <img src="img/hamburgesa.jpg" alt="">
+                    <p>Hamburguesa de lentejas con papas rusticas</p>
+                    <p>$ 450</p>
+                    <button class="btn-comprar">Ordenar</button>
+                </div>
+                <div class="contenedor-imagen-info">
+                    <img src="img/salmon.jpg" alt="">
+                    <p>Filet de salmón con salsa teriyaki</p>
+                    <p>$ 750</p>
+                    <button class="btn-comprar">Ordenar</button>
+                </div>
+                <div class="contenedor-imagen-info">
+                    <img src="img/tiramisu.jpg" alt="">
+                    <p>Tiramisú</p>
+                    <p>$300</p>
+                    <button class="btn-comprar">Ordenar</button>
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <h2>Contáctanos</h2>
+            <div class="formulario">
+                <form class="form" action="">
+                    <input class="box-text"type="text" placeholder="Nombre" required>
+                    <input class="box-text" type="email" placeholder="Email" required>
+                    <input class="box-text" type="text" placeholder="Asunto" required>
+                    <textarea class="box-area" placeholder="Mensaje" required></textarea>
+                    <input class="btn-enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="icon-redes" src="img/instagram.svg" alt="logo instagram">
+        <p>elrestauranteok</p>
+        <img class="icon-redes" src="img/facebook.svg" alt="logo facebook">
+        <p>El restaurante</p>
+        <img class="icon-redes" src="img/whatsapp.svg" alt="logo whatsapp">
+        <p>11 5404 4007</p>
+    </footer>
+</body>
+</html>

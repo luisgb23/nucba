@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+body{
+    background: #E55D87;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+h3{
+    color: white;
+    font-size: 2em;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.btn-login{
+    background-color: #5534A5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+}
+.box-text{
+    height: 50px;
+    width: 350px;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.box-email{
+    height: 50px;
+    width: 350px;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.box-pass{
+    height: 50px;
+    width: 350px;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-pass{
+    background-color: #8D8DAA;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+}
+.form a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #5534A5;
+}
+.form a:hover{
+    color: white;
+    cursor: pointer;
+}
+.btn-login:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #5534A5;
+}
+.btn-pass:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #8D8DAA;
+}
